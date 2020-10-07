@@ -1,0 +1,44 @@
+.card-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  body{
+    padding-top: 5em;
+  }
+
+  main{
+    margin-bottom: 4em;
+}
+
+ img {
+    max-width: 100%;
+ }
+
+ @media screen and (max-width: 600px) {
+  ul.navbar-nav mr-auto li.right, 
+  ul.navbar-nav mr-auto li {float: none;}
+}
+
+.rodapeFixo {            
+    position: fixed;    
+    left: 0;        
+    bottom: 0;       
+    width: 100%;   
+    background-color:gray;
+    text-align: center;
+    z-index: 100; /* forca ordem pra ficar acima de outros elementos */
+}
+
+#linha{
+  text-align: right;
+  text-decoration-color:white ;
+}
+
+.jumbotron{
+  background-color:transparent !important;
+}
